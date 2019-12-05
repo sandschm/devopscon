@@ -4,7 +4,7 @@
 	<h2>Welcome to DevOpsCon Demo project</h2>
 	CI/CD Workshop, Maven / Tomcat WAR example<P>
 	<%
-		String prefix = "<B>Read info from Java class with changes:</B> ";
+		String prefix = "<B>Read info from Java class with even newer changes:</B> ";
 		HelloHandler handler = new HelloHandler();
 		out.print(prefix + handler.sayHello());
 	%>
